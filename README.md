@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: (https://mell789.github.io/news_homepage/)
+- Live Site URL: https://mell789.github.io/news_homepage/
 
 ### Built with
 
