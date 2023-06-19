@@ -19,6 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
+![News homepage](https://github.com/Mell789/news_homepage/assets/119974283/c078677a-bd74-41da-aca1-4682550c7c68)
 
 
 ### Links
