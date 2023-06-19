@@ -39,7 +39,7 @@
         max-width: 340px;
     }
     .readmore_container {
-        max-width: 350px;
+        max-width: 310px;
     }
     .new_caption {
         font-size: 40px !important;
@@ -49,6 +49,16 @@
     }
     .mb-32 {
         margin-bottom: 0;
+    }
+    .fs-56 {
+        font-size: 56px !important;
+        line-height: 56px !important;
+    }
+}
+@media screen and (min-width: 1440px)
+{
+    .readmore_container {
+        max-width: 350px;
     }
 }
 @media screen and (min-width:1600px){
