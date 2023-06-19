@@ -1,0 +1,114 @@
+:root {
+    --almost_white: #FFFDFA;
+    --dark_space_blue: #00001A;
+    --gunmetal: #5E607A;
+    --light_vermillion: #F15D51;
+    --silver: #C5C6CE;
+    --yellow: #E9AA52;
+}
+
+.almost-white {color: var(--almost_white);}
+.dark_space_blue {color: var(--dark_space_blue);}
+.gunmetal {color: var(--gunmetal);}
+.yellow {color: var(--yellow);}
+.silver {color: var(--silver);}
+
+body {
+    font-family: 'Inter';
+    background-color: var(--almost_white);
+    overflow-x: hidden;
+    transition: 0.7s;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 28px;
+    padding-bottom: 80px;
+}
+
+.mb-64 {margin-bottom: 64px;}
+.mb-32 {margin-bottom: 32px;}
+
+.pointer {cursor: pointer;}
+
+/* nav */
+nav {
+    margin-bottom: 32px;
+}
+.logo img {
+    width: 45px;
+    height: 28px;
+    cursor: pointer;
+}
+.icon_menu {cursor: pointer;}
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100vh;
+    background-color: var(--almost_white);
+    transition: .7s;
+    z-index: 1;
+    overflow: hidden;
+}
+.vermillion-hover {
+    transition: .2s;
+}
+.vermillion-hover:hover {
+    color: var(--light_vermillion);
+}
+.icon_close_div {
+    margin-top: 27px;
+    margin-right: 20px;
+}
+.menu_ul {
+    margin-top: 86px;
+    margin-left: 24px;
+}
+
+/* main */
+/* web30 */
+.gridContainer {
+    display: grid;
+}
+.readmore {
+    border-style: solid;
+    border-color: var(--light_vermillion);
+    background-color: var(--light_vermillion);
+    color: var(--almost_white);
+    padding: 11px 32px;
+    transition: .25s;
+}
+.readmore:hover {
+    background-color: var(--dark_space_blue);
+    border-color: var(--dark_space_blue);
+    color: var(--almost_white);
+}
+.web30_img {max-height: 300px;}
+
+/* new */
+.new {
+    padding: 24px 20px;
+    background-color: var(--dark_space_blue);
+}
+.new_caption {
+    margin-bottom: 35px;
+}
+.new_content {
+    gap: 30px;
+}
+.new_contentbox h5 {
+    cursor: pointer;
+    transition: .3s;
+}
+.new_contentbox h5:hover {
+    color: var(--yellow);
+}
+.new_line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--gunmetal);
+}
+.blog_img {
+    width: 100px;
+    height: 129px;
+}

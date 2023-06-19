@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="src/default.css">
+  <link rel="stylesheet" href="src/text_styles.css">
+  <link rel="stylesheet" href="src/color_styles.css">
+  <link rel="stylesheet" href="src/styles.css">
+  <link rel="stylesheet" href="src/media.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body class="position-relative">
+
+  <div class="mainContainer">
+    
+    <nav class="d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="">
+      </div>
+      <!-- icon menu -->
+      <div class="d-md-none">
+        <img src="assets/images/icon-menu.svg" alt="" class="icon_menu">
+      </div>
+      <!-- menu -->
+      <div class="menu">
+        <div class="icon_close_div d-flex d-md-none justify-content-end">
+          <img src="assets/images/icon-menu-close.svg" class="icon_close">
+        </div>
+        <ul class="menu_ul d-flex flex-column gap-4 d-md-none">
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Home</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">New</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Popular</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Trending</a></li>
+          <li><a href="javascript:void(0);" class="heading headingXS dark_space_blue vermillion-hover">Categories</a></li>
+        </ul>
+      </div>
+      
+      <!-- menu after 768px -->
+      <div class="menu768 d-none d-md-block">
+        <ul class="menu768_ul d-flex gap-4">
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Home</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">New</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Popular</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Trending</a></li>
+          <li><a href="javascript:void(0);" class="body gunmetal vermillion-hover">Categories</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="gridContainer">
+        <!-- web 3.0 -->
+        <div class="web30 d-flex flex-column gap-4 mb-64">
+          <!-- image div -->
+          <div class="web30_img">
+            <img src="assets/images/image-web-3-mobile.jpg" class="img-cover d-lg-none">
+            <img src="assets/images/image-web-3-desktop.jpg" class="img-cover d-none d-lg-block">
+          </div>
+          <div class="web30_content d-flex flex-column flex-xl-row justify-content-xl-between align-items-xl-center gap-3">
+            <h2 class="m-0 heading headingL dark_space_blue bright" style="font-weight: 800;">The Bright Future of Web 3.0?</h2>
+            <div class="d-flex flex-column readmore_container gap-4">
+              <p class="m-0 body gunmetal">
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?
+              </p>
+              <!-- button div -->
+              <div>
+                <button class="readmore text-uppercase">read more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- new -->
+        <div class="new mb-64 d-flex flex-column justify-content-center">
+          <h1 class="heading headingM yellow new_caption">New</h1>
+          <div class="d-flex flex-column new_content">
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">Hydrogen VS Electric Cars</h5>
+              <p class="m-0 body silver">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </div>
+            <div class="new_line"></div>
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">The Downsides of AI Artistry</h5>
+              <p class="m-0 body silver">
+                What are the possible adverse effects of on-demand AI image generation?
+              </p>
+            </div>
+            <div class="new_line"></div>
+            <div class="new_contentbox">
+              <h5 class="mb-2 heading headingS almost-white">Is VC Funding Drying Up?</h5>
+              <p class="m-0 body silver">
+                Private funding by VC firms is down 50% YOY. We take a look at what that means.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- blogs part 1 -->
+        <div class="blogs_part1 mb-32">
+          <!-- Reviving Retro PCs -->
+          <div class="blogbox d-flex gap-4 align-items-center mb-32">
+            <!-- image div -->
+            <div class="imageDiv">
+              <img src="assets/images/image-retro-pcs.jpg" class="blog_img">
+            </div>
+            <!-- blogbox content -->
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">01</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">Reviving Retro PCs</div>
+              <p class="m-0 body gunmetal">
+                What happens when old PCs are given modern upgrades?
+              </p>
+            </div>
+          </div>
+          <!-- Top 10 Laptops of 2022 -->
+          <div class="blogbox d-flex gap-4 align-items-center">
+            <!-- image div -->
+            <div class="imageDiv">
+              <img src="assets/images/image-top-laptops.jpg" class="blog_img">
+            </div>
+            <!-- blogbox content -->
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">02</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">Top 10 Laptops of 2022</div>
+              <p class="m-0 body gunmetal">
+                Our best picks for various needs and budgets.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- blogs part 2 -->
+        <div class="blogs_part2 d-xl-flex align-items-center">
+          <div class="blogbox d-flex gap-4 align-items-center">
+            <!-- image div -->
+            <div class="imageDiv">
+              <img src="assets/images/image-gaming-growth.jpg" class="blog_img">
+            </div>
+            <!-- blogbox content -->
+            <div class="blogbox_content">
+              <div class="heading headingM silver mb-2">03</div>
+              <div class="heading headingXS dark_space_blue mb-2 vermillion-hover pointer" style="font-weight: 800;">The Growth of Gaming</div>
+              <p class="m-0 body gunmetal">
+                How the pandemic has sparked fresh opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="src/scripts/main.js"></script>
+  <!-- Home
+  New
+  Popular
+  Trending
+  Categories
+
+  The Bright Future of Web 3.0?
+
+  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+  But is it really fulfilling its promise?
+
+  Read more
+
+  New 
+
+  Hydrogen VS Electric Cars
+  Will hydrogen-fueled cars ever catch up to EVs?
+
+  The Downsides of AI Artistry
+  What are the possible adverse effects of on-demand AI image generation?
+
+  Is VC Funding Drying Up?
+  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+
+  01
+  Reviving Retro PCs
+  What happens when old PCs are given modern upgrades?
+
+  02
+  Top 10 Laptops of 2022
+  Our best picks for various needs and budgets.
+
+  03
+  The Growth of Gaming
+  How the pandemic has sparked fresh opportunities. -->
+  
+
+</body>
+</html>
