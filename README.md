@@ -19,8 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![News homepage](https://github.com/Mell789/news_homepage/assets/119974283/c078677a-bd74-41da-aca1-4682550c7c68)
-
+![FireShot Capture 002 - Frontend Mentor - News homepage - mell789 github io](https://github.com/Mell789/news_homepage/assets/119974283/c46580a8-946b-4ba4-9beb-3e4b203e611e)
 
 ### Links
 
