@@ -77,6 +77,8 @@ nav {
     color: var(--almost_white);
     padding: 11px 32px;
     transition: .25s;
+    letter-spacing: 4.375px;
+    font-weight: 700 !important;
 }
 .readmore:hover {
     background-color: var(--dark_space_blue);
