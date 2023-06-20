@@ -75,10 +75,11 @@ nav {
     border-color: var(--light_vermillion);
     background-color: var(--light_vermillion);
     color: var(--almost_white);
-    padding: 11px 32px;
+    padding: 12px 33px;
     transition: .25s;
     letter-spacing: 4.375px;
     font-weight: 700 !important;
+    font-size: 14px;
 }
 .readmore:hover {
     background-color: var(--dark_space_blue);
