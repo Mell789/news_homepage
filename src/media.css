@@ -45,6 +45,7 @@
     .readmore_container {
         max-width: 310px;
     }
+    .new {padding: 32px 24px;}
     .new_caption {
         font-size: 40px !important;
     }
@@ -61,6 +62,9 @@
 }
 @media screen and (min-width: 1400px)
 {
+    .gridContainer {
+        grid-template-columns: 730px 350px;
+    }
     .readmore_container {
         max-width: 350px;
     }
@@ -76,7 +80,7 @@
     body {
         padding: 90px 250px 130px 250px;
     }
-    .web30_content {
-        justify-content: space-around !important;
+    .gridContainer {
+        grid-template-columns: 770px 390px;
     }
 }
