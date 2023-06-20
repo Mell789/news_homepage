@@ -21,6 +21,10 @@
     body {
         padding: 90px 165px 130px 165px;
     }
+    nav {margin-bottom: 55px;}
+    .menu768_ul {
+        gap: 40px !important;
+    }
     .logo img {width: unset; height: unset;}
     .gridContainer {
         grid-template-columns: 2fr 1fr;
@@ -55,7 +59,7 @@
         line-height: 56px !important;
     }
 }
-@media screen and (min-width: 1440px)
+@media screen and (min-width: 1400px)
 {
     .readmore_container {
         max-width: 350px;
