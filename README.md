@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/news-homepage-using-css-grid-8amdrZMIH2
 - Live Site URL: https://mell789.github.io/news_homepage/
 
 ### Built with
