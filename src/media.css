@@ -39,11 +39,8 @@
     .blogbox_content {
         width: 100%;
     }
-    .bright {
-        max-width: 340px;
-    }
     .readmore_container {
-        max-width: 310px;
+        /* max-width: 350px; */
     }
     .new {padding: 32px 24px;}
     .new_caption {
@@ -62,11 +59,14 @@
 }
 @media screen and (min-width: 1400px)
 {
-    .gridContainer {
-        grid-template-columns: 730px 350px;
-    }
     .readmore_container {
         max-width: 350px;
+    }
+    .bright {
+        max-width: 340px;
+    }
+    .readmore_container {
+        max-width: 310px;
     }
 }
 @media screen and (min-width:1600px){
@@ -79,8 +79,5 @@
 {
     body {
         padding: 90px 250px 130px 250px;
-    }
-    .gridContainer {
-        grid-template-columns: 770px 390px;
     }
 }

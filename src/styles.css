@@ -66,9 +66,15 @@ nav {
 }
 
 /* main */
+.mainContainer {
+    max-width: 1200px;
+}
 /* web30 */
 .gridContainer {
     display: grid;
+}
+.grid-template-column {
+    grid-template-columns: 730px 350px;
 }
 .readmore {
     border-style: solid;

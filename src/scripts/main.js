@@ -28,4 +28,13 @@ window.addEventListener("load",() => {
         html.style.height = "100vh";
         html.classList.add("d-flex","justify-content-center","align-items-center");
     }
+
+    if (window.innerWidth === 1440)
+    {
+        document.querySelector(".gridContainer").classList.add("grid-template-column");
+    }
+    else
+    {
+        document.querySelector(".gridContainer").classList.remove("grid-template-column");
+    }
 });
